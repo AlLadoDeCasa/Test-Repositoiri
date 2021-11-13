@@ -7,5 +7,5 @@ import org.springframework.web.bind.annotation.RestController
 class Controller {
 
     @RequestMapping("/status")
-    fun getStatus() = "OK"
+    fun getStatus() = "OK."
 }

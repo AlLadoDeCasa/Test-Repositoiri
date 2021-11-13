@@ -9,6 +9,6 @@ class ControllerShould {
     fun `validate status is OK`(){
         val controller = Controller()
         val value = controller.getStatus()
-        assertEquals("OK",value)
+        assertEquals("OK.",value)
     }
 }
